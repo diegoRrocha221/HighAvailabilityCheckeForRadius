@@ -1,0 +1,8 @@
+[Unit]
+Description=Radius Checker
+
+[Service]
+ExecStart= /path/to/your/code/radiuschecker
+
+[Install]
+WantedBy=multi-user.target
